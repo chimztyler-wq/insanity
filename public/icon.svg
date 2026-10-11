@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Outer hexagon -->
+  <path d="M32 8l18.56 10.72v21.44L32 50.88 13.44 40.16V18.72L32 8z" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Inner hexagon -->
+  <path d="M32 16l11.14 6.43v12.86L32 41.72 20.86 35.29V22.43L32 16z" fill="white" fill-opacity="0.06" stroke="white" stroke-width="1" stroke-opacity="0.15"/>
+  <!-- Center mark -->
+  <path d="M32 22l5.57 3.21v6.43L32 34.86l-5.57-3.22V25.21L32 22z" fill="white" fill-opacity="0.12"/>
+</svg>
